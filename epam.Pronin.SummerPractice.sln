@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epam.Pronin.SummerPractice", "epam.Pronin.SummerPractice\epam.Pronin.SummerPractice.csproj", "{CA7E2121-0D8A-453A-91CF-4202C7C9F33A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PL", "PL", "{7AF27619-09C5-4CDC-9B9E-4318CECCC1FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{92038C25-CA3F-41DF-9EB6-6710EF083304}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{6756BFF5-AA4B-425A-9CE4-C7FE2A936264}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "COMMON", "COMMON", "{EE4C6EAE-FB7E-4719-8328-EDD0BE50726B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "epam.Pronin.SummerPractice.Entities", "epam.Pronin.SummerPractice.Entities\epam.Pronin.SummerPractice.Entities.csproj", "{80A46B5E-1C88-4936-9962-F3D8CB91BC1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "epam.Pronin.SummerPractice.DAL", "epam.Pronin.SummerPractice.DAL\epam.Pronin.SummerPractice.DAL.csproj", "{9EB2C80E-E302-462F-9315-EC69E8077E9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "epam.Pronin.SummerPractice.DAL.Interface", "epam.Pronin.SummerPractice.DAL.Interface\epam.Pronin.SummerPractice.DAL.Interface.csproj", "{89CF6EA3-3745-437E-A541-AACCC8F3FCE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epam.Pronin.SummerPractice.BLL.Interface", "epam.Pronin.SummerPractice.BLL.Interface\epam.Pronin.SummerPractice.BLL.Interface.csproj", "{EBB96F4F-77CD-4EF3-BFB7-CD164CB8CC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epam.Pronin.SummerPractice.BLL", "epam.Pronin.SummerPractice.BLL\epam.Pronin.SummerPractice.BLL.csproj", "{20C52AC8-4BFC-497A-AF7C-B1F1F9033AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epam.Pronin.SummerPractice.Common", "epam.Pronin.SummerPractice.Common\epam.Pronin.SummerPractice.Common.csproj", "{9C3B284F-F7F3-427C-98A9-A99E25F86D52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA7E2121-0D8A-453A-91CF-4202C7C9F33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7E2121-0D8A-453A-91CF-4202C7C9F33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7E2121-0D8A-453A-91CF-4202C7C9F33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7E2121-0D8A-453A-91CF-4202C7C9F33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A46B5E-1C88-4936-9962-F3D8CB91BC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A46B5E-1C88-4936-9962-F3D8CB91BC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A46B5E-1C88-4936-9962-F3D8CB91BC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A46B5E-1C88-4936-9962-F3D8CB91BC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB2C80E-E302-462F-9315-EC69E8077E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB2C80E-E302-462F-9315-EC69E8077E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB2C80E-E302-462F-9315-EC69E8077E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB2C80E-E302-462F-9315-EC69E8077E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CF6EA3-3745-437E-A541-AACCC8F3FCE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CF6EA3-3745-437E-A541-AACCC8F3FCE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CF6EA3-3745-437E-A541-AACCC8F3FCE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CF6EA3-3745-437E-A541-AACCC8F3FCE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB96F4F-77CD-4EF3-BFB7-CD164CB8CC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB96F4F-77CD-4EF3-BFB7-CD164CB8CC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB96F4F-77CD-4EF3-BFB7-CD164CB8CC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB96F4F-77CD-4EF3-BFB7-CD164CB8CC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C52AC8-4BFC-497A-AF7C-B1F1F9033AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C52AC8-4BFC-497A-AF7C-B1F1F9033AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C52AC8-4BFC-497A-AF7C-B1F1F9033AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C52AC8-4BFC-497A-AF7C-B1F1F9033AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3B284F-F7F3-427C-98A9-A99E25F86D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3B284F-F7F3-427C-98A9-A99E25F86D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3B284F-F7F3-427C-98A9-A99E25F86D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3B284F-F7F3-427C-98A9-A99E25F86D52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA7E2121-0D8A-453A-91CF-4202C7C9F33A} = {7AF27619-09C5-4CDC-9B9E-4318CECCC1FF}
+		{80A46B5E-1C88-4936-9962-F3D8CB91BC1D} = {EE4C6EAE-FB7E-4719-8328-EDD0BE50726B}
+		{9EB2C80E-E302-462F-9315-EC69E8077E9F} = {6756BFF5-AA4B-425A-9CE4-C7FE2A936264}
+		{89CF6EA3-3745-437E-A541-AACCC8F3FCE9} = {6756BFF5-AA4B-425A-9CE4-C7FE2A936264}
+		{EBB96F4F-77CD-4EF3-BFB7-CD164CB8CC2B} = {92038C25-CA3F-41DF-9EB6-6710EF083304}
+		{20C52AC8-4BFC-497A-AF7C-B1F1F9033AE0} = {92038C25-CA3F-41DF-9EB6-6710EF083304}
+		{9C3B284F-F7F3-427C-98A9-A99E25F86D52} = {EE4C6EAE-FB7E-4719-8328-EDD0BE50726B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {862698A8-588B-499E-9026-A681AB4FED04}
+	EndGlobalSection
+EndGlobal

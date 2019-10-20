@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\epam.Pronin.SummerPractice.BLL.Interface\epam.Pronin.SummerPractice.BLL.Interface.csproj" />
+    <ProjectReference Include="..\epam.Pronin.SummerPractice.DAL.Interface\epam.Pronin.SummerPractice.DAL.Interface.csproj" />
+    <ProjectReference Include="..\epam.Pronin.SummerPractice.Entities\epam.Pronin.SummerPractice.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

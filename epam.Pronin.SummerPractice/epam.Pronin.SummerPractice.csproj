@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA7E2121-0D8A-453A-91CF-4202C7C9F33A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>epam.Pronin.SummerPractice</RootNamespace>
+    <AssemblyName>epam.Pronin.SummerPractice</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Lot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Lot.Designer.cs">
+      <DependentUpon>Add_Lot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorization.Designer.cs">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Lot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Lot.Designer.cs">
+      <DependentUpon>Delete_Lot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_User.Designer.cs">
+      <DependentUpon>Delete_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetUserLot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetUserLot.Designer.cs">
+      <DependentUpon>GetUserLot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SummerPracticeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SummerPracticeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="User_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Add.Designer.cs">
+      <DependentUpon>User_Add.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_Lot.resx">
+      <DependentUpon>Add_Lot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authorization.resx">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Lot.resx">
+      <DependentUpon>Delete_Lot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_User.resx">
+      <DependentUpon>Delete_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetUserLot.resx">
+      <DependentUpon>GetUserLot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="User_Add.resx">
+      <DependentUpon>User_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SummerPracticeDataSet.xsc">
+      <DependentUpon>SummerPracticeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SummerPracticeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SummerPracticeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SummerPracticeDataSet.xss">
+      <DependentUpon>SummerPracticeDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\epam.Pronin.SummerPractice.BLL.Interface\epam.Pronin.SummerPractice.BLL.Interface.csproj">
+      <Project>{ebb96f4f-77cd-4ef3-bfb7-cd164cb8cc2b}</Project>
+      <Name>epam.Pronin.SummerPractice.BLL.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\epam.Pronin.SummerPractice.Common\epam.Pronin.SummerPractice.Common.csproj">
+      <Project>{9c3b284f-f7f3-427c-98a9-a99e25f86d52}</Project>
+      <Name>epam.Pronin.SummerPractice.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\epam.Pronin.SummerPractice.DAL.Interface\epam.Pronin.SummerPractice.DAL.Interface.csproj">
+      <Project>{89cf6ea3-3745-437e-a541-aaccc8f3fce9}</Project>
+      <Name>epam.Pronin.SummerPractice.DAL.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\epam.Pronin.SummerPractice.Entities\epam.Pronin.SummerPractice.Entities.csproj">
+      <Project>{80a46b5e-1c88-4936-9962-f3d8cb91bc1d}</Project>
+      <Name>epam.Pronin.SummerPractice.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
